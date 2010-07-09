@@ -5,7 +5,7 @@
   <summary>Mootools Datepicker widget, Validators</summary>
   <description>Mootools Datepicker widget, Validators</description>
   <lead>
-    <name>Ken Mafilla</name>
+    <name>Ken Marfilla</name>
     <user>marfillaster</user>
     <email>marfillaster@gmail.com</email>
     <active>yes</active>
@@ -24,6 +24,7 @@
   <contents>
     <dir name="/">
       <file role="data" name="README" />
+      <file role="data" name="README.md" />
       <file role="data" name="LICENSE" />
       <dir name="lib">
         <dir name="validator">
