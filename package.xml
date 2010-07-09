@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packagerversion="1.4.1" version="2.0" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+  <name>kmFormExtraPlugin</name>
+  <channel>plugins.symfony-project.org</channel>
+  <summary>Mootools Datepicker widget, Validators</summary>
+  <description>Mootools Datepicker widget, Validators</description>
+  <lead>
+    <name>Ken Mafilla</name>
+    <user>marfillaster</user>
+    <email>marfillaster@gmail.com</email>
+    <active>yes</active>
+  </lead>
+  <date>2010-07-09</date>
+  <version>
+    <release>0.9.0</release>
+    <api>0.9.0</api>
+  </version>
+  <stability>
+    <release>beta</release>
+    <api>beta</api>
+  </stability>
+  <license uri="http://www.symfony-project.org/license">MIT license</license>
+  <notes>-</notes>
+  <contents>
+    <dir name="/">
+      <file role="data" name="README" />
+      <file role="data" name="LICENSE" />
+      <dir name="lib">
+        <dir name="validator">
+          <file role="data" name="kmValidatorDateTimeCompact.php" />
+        </dir>
+        <dir name="widget">
+          <file role="data" name="kmWidgetFormMooToolsDate.php" />
+          <file role="data" name="kmWidgetFormMooToolsDateTime.php" />
+        </dir>        
+      </dir>
+      <dir name="web">
+      	<file role="data" name=".gitignore" />
+      	<dir name="js">
+      	  <file role="data" name="mootools-datepicker.js" />
+      	</dir>
+      </dir>      
+    </dir>
+  </contents>
+  <dependencies>
+    <required>
+      <php>
+        <min>5.2.4</min>
+      </php>
+      <pearinstaller>
+        <min>1.4.1</min>
+      </pearinstaller>
+      <package>
+        <name>symfony</name>
+        <channel>pear.symfony-project.com</channel>
+        <min>1.2.0</min>
+        <max>2.0.0</max>
+        <exclude>2.0.0</exclude>
+      </package>
+    </required>
+  </dependencies>
+  <phprelease></phprelease>
+  <changelog>
+  <release>
+    <date>2010-07-09</date>
+    <version>
+      <release>0.9.0</release>
+      <api>0.9.0</api>
+    </version>
+    <stability>
+      <release>beta</release>
+      <api>beta</api>
+    </stability>
+    <license uri="http://www.symfony-project.org/license">MIT license</license>
+    <notes>
+      * marfillaster: initial release
+    </notes>  
+  </release>
+  </changelog>
+</package>
